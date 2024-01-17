@@ -12,8 +12,8 @@ export default {
       colors: {
         theme: "#030637",
         primary: "#3C0753",
-        secondary: "#720455",
-        text: "#910A67",
+        secondary: "#A855F7",
+        text: "#720455",
       },
       fontFamily: {
         jost: ["Jost", "sans-serif"],

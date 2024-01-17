@@ -34,7 +34,7 @@ function Edu() {
             <div key={certificate.id}>
               <div className="relative p 10 border-4 text-center rounded-tr-3xl rounded-bl-3xl border-secondary">
                 <img
-                  src="./images/medalRef.jpg"
+                  src={certificate.image}
                   alt={certificate.title}
                   className="w-full h-80 rounded-tr-3xl rounded-bl-3xl"
                 />

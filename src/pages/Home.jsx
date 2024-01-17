@@ -32,7 +32,7 @@ function Home() {
           <TechStack />
         </div>
         <div className="my-20 ">
-          <div className="text-center h-52 bg-primary">
+          <div className="text-center h-52 bg-secondary">
             <h1 className="text-4xl text-white font-bold text-center my-8 py-10">
               About me
             </h1>
@@ -73,7 +73,7 @@ function Home() {
               ></dotlottie-player>
             </div>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <pre className="text-white font-jost mb-40">
+              <pre className="text-white font-jost mb-40 md:text-sm xl:text-base">
                 {JSON.stringify(
                   {
                     name: "Jose Nardulli",

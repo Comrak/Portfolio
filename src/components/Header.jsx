@@ -42,7 +42,7 @@ function Header() {
           {menuItems.map((item) => {
             return (
               <li
-                className={`list-none mx-5 ${
+                className={`list-none mx-5 p-2 ${
                   item.link === path && "bg-white text-black rounded-md"
                 }`}
                 key={item.id}
