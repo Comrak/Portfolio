@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import TechStack from "../components/TechStack";
-
+import { FaFileDownload } from "react-icons/fa";
 function Home() {
   return (
     <Layout>
@@ -87,6 +87,30 @@ function Home() {
                   2
                 )}
               </pre>
+            </div>
+          </div>
+          <div className="my-20 ">
+            <div className="text-center h-52 bg-secondary">
+              <h1 className="text-4xl text-white font-bold text-center my-8 py-10">
+                Resume
+              </h1>
+            </div>
+            <div className="md:mx-5 xl:mx-32 shadow-2x1 bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white  text-text text-center">
+              <p
+                className="xl:px-14 text-2xl my-5 font-semiboldmd:px-5 py-10"
+                onClick={() =>
+                  window.open("./documents/JoseNardulli2024.pdf", "_blank")
+                }
+              >
+                Click on the button to download my resume
+              </p>
+              <div
+                onClick={() =>
+                  window.open("./documents/JoseNardulli2024.pdf", "_blank")
+                }
+              >
+                <FaFileDownload size={180} color="#A855F7" className="w-full" />
+              </div>
             </div>
           </div>
         </div>
