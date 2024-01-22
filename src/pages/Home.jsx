@@ -102,7 +102,7 @@ function Home() {
                   window.open("./documents/JoseNardulli2024.pdf", "_blank")
                 }
               >
-                Click on the button to download my resume
+                Click here to see my resume
               </p>
               <div
                 onClick={() =>
