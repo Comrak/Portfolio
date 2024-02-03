@@ -64,7 +64,6 @@ function Projects() {
             </div>
           );
         })}
-        ;
       </div>
     </Layout>
   );
