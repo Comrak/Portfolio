@@ -56,7 +56,6 @@ function Edu() {
             </div>
           );
         })}
-        ;
       </div>
     </Layout>
   );
